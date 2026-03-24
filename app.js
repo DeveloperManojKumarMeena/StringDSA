@@ -26,3 +26,10 @@ let name = '                  mukesh                      ';
 console.log(name.trim()) //it's remove extra spaces of both side of line not mid of line
 
 //8.`indexOf(substring)` | Returns first index of substring 
+console.log(typeof(name))
+
+let str = "Hello World";
+console.log(str.charAt(6));
+
+let stri = "JavaScript";
+console.log(stri.slice(4, 10));
