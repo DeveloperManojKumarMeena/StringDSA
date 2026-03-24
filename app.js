@@ -12,3 +12,17 @@ console.log(string.slice(-7)) //output => Solvers
 
 //3.substring(start, end)` | Similar to `slice`, but no negative indexes 
 console.log(string.substring(5,9)) //output=>DSA
+
+//4.`toUpperCase()` | Converts to uppercase |
+console.log(string.toUpperCase())
+//5.toLowerCase()` | Converts to lowercase |
+console.log(string.toLocaleLowerCase())
+
+//6.concat()` | Concatenates strings
+console.log(string.concat(" Good to go"))
+
+//7.trim()` | Removes spaces from both sides
+let name = '                  mukesh                      ';
+console.log(name.trim()) //it's remove extra spaces of both side of line not mid of line
+
+//8.`indexOf(substring)` | Returns first index of substring 
