@@ -9,3 +9,4 @@ console.log(`here we show function object like behavior ${manoj.age}`)
 
 let arr = Array.from({length:3},()=>{Array(4).fill('*')})
 console.log(arr)
+console.log(10+5)
