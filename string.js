@@ -19,4 +19,19 @@ console.log(str.replace('adalah','Apple'))
 */
 
 let s = '* '
-console.log(s.repeat(3))
+
+//match methode
+
+let text = "JavaScript is amazing!";
+let result = text.match(/is/);
+
+
+/* Output: ["is", index: 11, input: "JavaScript is amazing!", groups: undefined] 
+(यहाँ पहला मैच और उसकी पोजीशन मिली)
+*/
+
+let str = "I have 2 apples, 5 bananas and 100 oranges.";
+let regex = /\d+/g; // \d+ मतलब एक या उससे ज्यादा अंक
+
+let found = str.match(regex);
+console.log(found); // Output: ["2", "5", "100"]
