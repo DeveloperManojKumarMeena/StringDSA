@@ -35,3 +35,4 @@ let regex = /\d+/g; // \d+ मतलब एक या उससे ज्या�
 
 let found = str.match(regex);
 console.log(found); // Output: ["2", "5", "100"]
+
