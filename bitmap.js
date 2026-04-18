@@ -12,8 +12,8 @@
 //         console.log(String.fromCharCode(i) + ' -> ' + freqArr[i]);
 //     }
 // }
-let s1=prompt('Enter string one');
-let s2=prompt('Enter string two');
+let s1=prompt('Enter string one  ');
+let s2=prompt('Enter string two  ');
 let freqArr = new Array(123).fill(0);
 let isAnagram = true;
 
