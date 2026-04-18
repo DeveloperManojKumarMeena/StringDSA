@@ -17,6 +17,7 @@ let prompt = require('prompt-sync')();
  */
 
  //Jewels & Stones Problem
+/* 
 let jewels = prompt('Enter Jewles value  ');
 let stones = prompt('Enter stones string  ');
 let set = new Set();
@@ -30,3 +31,28 @@ for(let i=0;i<stones.length;i++){
     if(set.has(ch)) count++
 }
 console.log(count)
+*/
+
+
+//Happy Number Problem?
+let n = prompt('Enter a number for check  =>  ');
+let set = new Set()
+
+while(true){
+    let sum = 0;
+    while(n>0){
+        let rem = n%10;
+        sum +=(rem*rem);
+        n= Math.floor(n/10)
+    }
+    if(sum== 1){console.log("Happy Number") 
+        break
+    }
+
+        if(set.has(sum)){console.log('Not a Happy Number')
+            break}
+            else set.add(sum)
+
+        n=sum
+}
+
